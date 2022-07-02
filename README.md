@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.isReadOnlyPropertyIn;
+})();
 })();
 </script>
 ```
@@ -154,6 +156,7 @@ bool = isReadOnlyPropertyIn( obj, 'accessor' );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-only-property-in@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var bool = isReadOnlyPropertyIn( 'a', 'length' );
 // returns true
@@ -182,6 +185,7 @@ bool = isReadOnlyPropertyIn( null, 'a' );
 bool = isReadOnlyPropertyIn( void 0, 'a' );
 // returns false
 
+})();
 })();
 </script>
 </body>
@@ -278,17 +282,17 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-read-only-property-in/main/LICENSE
 
-[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property/tree/umd
+[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property/tree/umd/tree/umd
 
 <!-- <related-links> -->
 
-[@stdlib/assert/is-read-only-property]: https://github.com/stdlib-js/assert-is-read-only-property/tree/umd
+[@stdlib/assert/is-read-only-property]: https://github.com/stdlib-js/assert-is-read-only-property/tree/umd/tree/umd
 
-[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in/tree/umd
+[@stdlib/assert/is-read-write-property-in]: https://github.com/stdlib-js/assert-is-read-write-property-in/tree/umd/tree/umd
 
-[@stdlib/assert/is-readable-property-in]: https://github.com/stdlib-js/assert-is-readable-property-in/tree/umd
+[@stdlib/assert/is-readable-property-in]: https://github.com/stdlib-js/assert-is-readable-property-in/tree/umd/tree/umd
 
-[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert-is-writable-property-in/tree/umd
+[@stdlib/assert/is-writable-property-in]: https://github.com/stdlib-js/assert-is-writable-property-in/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
