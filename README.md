@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isReadOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-only-property-in@deno/mod.js';
+import isReadOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-only-property-in@v0.1.0-deno/mod.js';
 ```
 
 #### isReadOnlyPropertyIn( value, property )
@@ -135,7 +135,7 @@ bool = isReadOnlyPropertyIn( obj, 'accessor' );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import isReadOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-only-property-in@deno/mod.js';
+import isReadOnlyPropertyIn from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-read-only-property-in@v0.1.0-deno/mod.js';
 
 var bool = isReadOnlyPropertyIn( 'a', 'length' );
 // returns true
